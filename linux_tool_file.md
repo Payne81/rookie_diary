@@ -37,14 +37,14 @@ ORS         输出的行分隔符,默认为换行符,即处理结果也是一行
 #### 匹配
 ```
 awk '/localhost/' /tmp/hosts
-awk '$3~/local/' /tmp/hosts		        #每行的第3列去匹配local
+awk '$3~/local/' /tmp/hosts             #每行的第3列去匹配local
 awk '$3~/local/{print $1,$2}' /tmp/hosts
-awk '$2=="localhost"' /tmp/hosts		#第2列精确匹配localhost
-awk '$2!="localhost"' /tmp/hosts		#取反
-awk -F: '$3<=10' /etc/passwd			#第3列小于等于10的行
-awk -F: 'NR==10' /etc/passwd			#仅显示第10行
-awk -F: '$3>1 && $3<5' /etc/passwd		#逻辑与
-awk -F: '$3==1 || $3==5' /etc/passwd	#逻辑或
+awk '$2=="localhost"' /tmp/hosts        #第2列精确匹配localhost
+awk '$2!="localhost"' /tmp/hosts        #取反
+awk -F: '$3<=10' /etc/passwd            #第3列小于等于10的行
+awk -F: 'NR==10' /etc/passwd            #仅显示第10行
+awk -F: '$3>1 && $3<5' /etc/passwd      #逻辑与
+awk -F: '$3==1 || $3==5' /etc/passwd    #逻辑或
 
 e.g.
 awk '/bash$/{x++} END{print x}' /etc/passwd         # 匹配到以bash结尾的行时, x++, 最后输出x
@@ -59,6 +59,6 @@ sed每次读取文件一行内容,根据提供的规则命令匹配并修改数�
 Usage:      sed [选项] [脚本命令] 文件名
 -e  file    将其后跟的脚本命令添加到已有的命令中。
 -f  file    将其后文件中的脚本命令添加到已有的命令中。
--n	        默认情况下，sed 会在所有的脚本指定执行完毕后，会自动输出处理后的内容，而该选项会屏蔽启动输出，需使用 print 命令来完成输出。
--i	        直接修改源文件
+-n          默认情况下，sed 会在所有的脚本指定执行完毕后，会自动输出处理后的内容，而该选项会屏蔽启动输出，需使用 print 命令来完成输出。
+-i          直接修改源文件
 ```
