@@ -17,7 +17,7 @@
 
 ***
 
-![明天不用来了]](./image/明天不用来了.png ''鼠标移动上来显示的内容可以不加'')
+![明天不用来了]](https://github.com/Payne81/Payne_is_studying/blob/master/image/%E6%98%8E%E5%A4%A9%E4%B8%8D%E7%94%A8%E6%9D%A5%E4%BA%86.png)
 
 [仓库地址](https://github.com/Payne81/Payne_is_studying "hula")
 
