@@ -67,3 +67,5 @@ Usage:      sed [选项] [脚本命令] 文件名
 -n          默认情况下.sed 会在所有的脚本指定执行完毕后.会自动输出处理后的内容.而该选项会屏蔽启动输出.需使用 print 命令来完成输出。
 -i          直接修改源文件
 ```
+
+[返回目录](https://payne81.github.io/Payne_is_studying/)
