@@ -1,8 +1,8 @@
 theme: jekyll-theme-leap-day
 
 
-fonts:
+# fonts:
 
- primary: Roboto Slab
+#  primary: Roboto Slab
  
- secondary: Helvetica
+#  secondary: Helvetica
