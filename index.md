@@ -13,6 +13,6 @@
 
 ### cplusplus
 
-* [gdb(todo!)](https://payne81.github.io/Payne_is_studying/cplusplus/gdb)
+* [gdb(todo!)](https://payne81.github.io/Payne_is_studying/cplusplus/base_skill/gdb)
 * [thread base(todo!)](https://payne81.github.io/Payne_is_studying/cplusplus/thread_base)
 * [thread_pool(todo!)](https://payne81.github.io/Payne_is_studying/cplusplus/thread_pool)
