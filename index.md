@@ -1,18 +1,32 @@
-# Notes
+# REAL BOOK
 
 
-* [markdown语法](https://payne81.github.io/Payne_is_studying/markdown_syntax)
+* [markdown syntax](https://payne81.github.io/rookie_diary/markdown_syntax)
 
-### Linux
+## Linux
 
-* [linux file tool](https://payne81.github.io/Payne_is_studying/linux/linux_tool_file)
+* [linux file tool](https://payne81.github.io/rookie_diary/linux/linux_tool_file)
 
-### distributed system
+## Distributed System
 
-* [DynamoDB](https://payne81.github.io/Payne_is_studying/distributed_system/DynamoDB)
+Database
 
-### cplusplus
+* [DynamoDB](https://payne81.github.io/rookie_diary/distributed_system/DynamoDB)
+* LSM(The Log-Structured Merge-Tree) (TODO)
 
-* [gdb(todo!)](https://payne81.github.io/Payne_is_studying/cplusplus/base_skill/gdb)
-* [thread base(todo!)](https://payne81.github.io/Payne_is_studying/cplusplus/thread_base)
-* [thread_pool(todo!)](https://payne81.github.io/Payne_is_studying/cplusplus/thread_pool)
+System Design
+* RAFT/Paxos (TODO)
+* brpc source code guide (TODO)
+
+## CPlusPlus
+
+Base Skill
+* [GDB(TODO!)](https://payne81.github.io/rookie_diary/cplusplus/base_skill/gdb)
+* [Makefile(TODO!)](https://payne81.github.io/rookie_diary/cplusplus/base_skill/makefile)
+
+* [Multithread Base(TODO!)](https://payne81.github.io/rookie_diary/cplusplus/thread_base)
+* [ThreadPool(TODO!)](https://payne81.github.io/rookie_diary/cplusplus/thread_pool)
+
+## Music
+
+* [Walking Bass] TODO!

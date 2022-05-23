@@ -17,10 +17,10 @@
 
 ***
 
-<!-- ![明天不用来了](https://github.com/Payne81/Payne_is_studying/blob/master/image/%E6%98%8E%E5%A4%A9%E4%B8%8D%E7%94%A8%E6%9D%A5%E4%BA%86.png) -->
-![明天不用来了](https://payne81.github.io/Payne_is_studying/image/%E6%98%8E%E5%A4%A9%E4%B8%8D%E7%94%A8%E6%9D%A5%E4%BA%86.png)
+<!-- ![明天不用来了](https://github.com/Payne81/rookie_diary/blob/master/image/%E6%98%8E%E5%A4%A9%E4%B8%8D%E7%94%A8%E6%9D%A5%E4%BA%86.png) -->
+![明天不用来了](https://payne81.github.io/rookie_diary/image/%E6%98%8E%E5%A4%A9%E4%B8%8D%E7%94%A8%E6%9D%A5%E4%BA%86.png)
 
-[仓库地址](https://github.com/Payne81/Payne_is_studying "hula")
+[仓库地址](https://github.com/Payne81/rookie_diary "hula")
 
 * 列表
 - 也是一样的
@@ -38,4 +38,4 @@
 这是几行代码
 ```
 
-[返回目录](https://payne81.github.io/Payne_is_studying/)
+[返回目录](https://payne81.github.io/rookie_diary/)
