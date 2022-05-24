@@ -19,12 +19,9 @@ gdb program core    ## (C++) use -g to gen core file
 gdb program 1234    ## specify a process ID as a second argument or use option -p
 gdb -p 1234
 
-(gdb) n             ## the command n (next) to advance execution to the next line of the current function
-(gdb) s             ## step goes to the next line to be executed in any subroutine
-(gdb) bt            ## backtrace
-(gdb) l             ## list
-(gdb) p             ## print
-(gdb) c             ## continue
+(gdb) backtrace     ## abbreviated as bt
+(gdb) list          ## abbreviated as l.
+(gdb) print         ## abbreviated as p.
 
 ## set arguments
 gdb --args gcc -O2 -c foo.c ## debug gcc, and to set gcc's command-line arguments to '-O2 -c foo.c'
@@ -124,7 +121,14 @@ symbols all stay in the same place and avoid the effects of address randomizatio
 (gdb) disable [breakpoints] [list…]
 (gdb) enable [breakpoints] [list…]
 (gdb) enable [breakpoints] once [list…]
+```
 
+### Continuing and Stepping
+
+```gdb
+(gdb) continue      ## abbreviated as c.
+(gdb) next          ## abbreviated as n, the command n (next) to advance execution to the next line of the current function
+(gdb) step          ## abbreviated as s, step goes to the next line to be executed in any subroutine
 ```
 
 ## Command
@@ -134,6 +138,8 @@ Useful commands!
 ```bash
 (gdb) info
 ```
+
+
 
 ## References
 
