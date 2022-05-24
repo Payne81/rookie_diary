@@ -1,13 +1,15 @@
-# awk&sed&grep
+# Sed, Awk and Grep
 
 * awk: 流式编辑器
 * sed: 非交互流式文本编辑器,可以对文本文件进行增,删,改,查等操作
 * grep: 模式匹配
 
-# awk
-#### 概览
+## Awk
+
+### Summary
 
 awk(默认以换行符分隔)逐行读入文件,默认空格分隔一行中的每一列,针对特定部分进行处理. 参考[CSDN awk命令详解](https://blog.csdn.net/anqixiang/article/details/117903529),其余命令也可参考C语言中文网的[linux教程](http://c.biancheng.net/linux_tutorial/text_processing/)
+
 ```
 Usage:      awk [-F|-f|-v] 'BEGIN{} //{command1; command2} END{}' file
 [-F|-f|-v]  参数,-F指定(列)分隔符,-f调用脚本,-v定义变量(自定变量或者awk已有变量) var=value
@@ -19,7 +21,8 @@ BEGIN       初始化代码块,在对每一行进行处理之前执行
 END         结尾代码块,在对每一行进行处理之后执行
 ```
 
-#### 参数
+### 参数
+
 ```
 $0          表示整个当前行
 $1          每行第一个字段, 以此类推..
@@ -29,7 +32,8 @@ FNR         与NR类似,不过多文件记录不递增,每个文件都从1开始
 FILENAME    当前文件名
 ```
 
-#### 指定分隔符
+### 指定分隔符
+
 ```
 -F:         指定输入中':'是列分隔符
 -F'[:./]'   ':', '.', '/'都可以作为分隔符
@@ -39,7 +43,8 @@ OFS         输出字段分隔符,默认也是空格,可以改为制表符等. e
 ORS         输出的行分隔符,默认为换行符,即处理结果也是一行一行输出到屏幕. eg. -v ORS="?"
 ```
 
-#### 匹配
+### 匹配
+
 ```
 awk '/localhost/' /tmp/hosts
 awk '$3~/local/' /tmp/hosts             #每行的第3列去匹配local
@@ -55,12 +60,13 @@ e.g.
 awk '/bash$/{x++} END{print x}' /etc/passwd         # 匹配到以bash结尾的行时, x++, 最后输出x
 ```
 
-# sed
-#### 概览
+## Sed
+
+### Summary
 
 sed每次读取文件一行内容,根据提供的规则命令匹配并修改数据,(默认不会直接修改源文件数据.而是会将数据复制到缓冲区中.修改也仅限于缓冲区中的数据), 然后输出执行结果.
 
-```
+```bash
 Usage:      sed [选项] [脚本命令] 文件名
 -e  file    将其后跟的脚本命令添加到已有的命令中。
 -f  file    将其后文件中的脚本命令添加到已有的命令中。
@@ -68,8 +74,8 @@ Usage:      sed [选项] [脚本命令] 文件名
 -i          直接修改源文件
 ```
 
+## References
 
-# 引用
 * [CSDN awk命令详解](https://blog.csdn.net/anqixiang/article/details/117903529)
 * [C语言中文网 linux教程](http://c.biancheng.net/linux_tutorial/text_processing/)
 

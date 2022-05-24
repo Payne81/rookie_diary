@@ -4,7 +4,7 @@
 
 ## Linux
 
-* [linux file tool](https://payne81.github.io/rookie_diary/linux/linux_tool_file)
+* [Sed, Awk and Grep](https://payne81.github.io/rookie_diary/linux/linux_tool_file)
 
 ## Distributed System
 
@@ -22,11 +22,11 @@ System Design
 
 Base Skill
 
-* [GDB(TODO!)](https://payne81.github.io/rookie_diary/cplusplus/base_skill/gdb)
-* [Makefile(TODO!)](https://payne81.github.io/rookie_diary/cplusplus/base_skill/makefile)
+* [GDB](https://payne81.github.io/rookie_diary/cplusplus/base_skill/gdb) (The GNU Debuger).
+* [Makefile](https://payne81.github.io/rookie_diary/cplusplus/base_skill/makefile)
 
-* [Multithread Base(TODO!)](https://payne81.github.io/rookie_diary/cplusplus/thread_base)
-* [ThreadPool(TODO!)](https://payne81.github.io/rookie_diary/cplusplus/thread_pool)
+* [Multithread Base(TODO)](https://payne81.github.io/rookie_diary/cplusplus/thread_base)
+* [ThreadPool(TODO)](https://payne81.github.io/rookie_diary/cplusplus/thread_pool)
 
 ## Music
 

@@ -30,7 +30,7 @@ command:
 
 ## 隐晦规则
 
-## 工作方式
+## Work Flow
 
 * 读入所有的Makefile。
 * 读入被include的其它Makefile。
@@ -42,6 +42,7 @@ command:
 
 ## 很他妈坑的Makefile
 
+todo
 
 # 参考资料
 
