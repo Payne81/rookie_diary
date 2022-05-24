@@ -93,7 +93,39 @@ symbols all stay in the same place and avoid the effects of address randomizatio
 
 ### Breakpoint, Watchpoint, Catchpoint
 
-Breakpoint
+* Breakpoint: A *breakpoint* makes your program stop whenever a certain point in the program is reached.
+* Watchpoint: A *watchpoint* is a special breakpoint that stops your program when the value of an expression changes. The expression may be a value of a variable,
+ or it could involve values of one or more variables combined by operators, such as ‘a + b’.
+* Catchpoint: A *catchpoint* is another special breakpoint that stops your program when a certain kind of event occurs, such as the throwing of a C++ exception or
+ the loading of a library.
+
+```bash
+## set break
+(gdb) break location            ## location： linenum/function/label/filename:linenum/function:label/filename:function, 
+                                ## break abbreviated as b,  more information refers to GDB Documentation
+(gdb) break                     ## examining stack, more information refers to GDB Documentation
+(gdb) break … if cond           ## when the breakpoint id reach and cond evaluates as true, stop.
+(gdb) info breakpoints [list…]  ## or info break [list…], i b, show a table of breakpoints, watchpoints and catchpoints
+(gdb) tbreak args               ## use like #1/#2, just break once, similier to twatch/tcatch
+
+## set watchpoints
+(gdb) watch [-l|-location] expr [thread thread-id] [mask maskvalue] [task task-id]
+(gdb) info watchpoints
+
+## set catchpoints
+(gdb) catch event               ## Stop when event occurs. The event can be any of the following:
+                                ## throw,catch,assert,syscall,fork,signal,load...
+## deleting breakpoints
+(gdb) clear                     ## Delete any breakpoints at the next instruction to be executed in the selected stack frame
+(gdb) clear location            ## clear breakpoint in the location.
+(gdb) delete [breakpoints] [list…]  ## abbreviate as d
+
+## disabing breakpoints
+(gdb) disable [breakpoints] [list…]
+(gdb) enable [breakpoints] [list…]
+(gdb) enable [breakpoints] once [list…]
+
+```
 
 ## Command
 

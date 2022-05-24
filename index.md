@@ -2,6 +2,16 @@
 
 <!-- * [markdown syntax](https://payne81.github.io/rookie_diary/markdown_syntax) -->
 
+## CPlusPlus
+
+Base Skill
+
+* [GDB](https://payne81.github.io/rookie_diary/cplusplus/base_skill/gdb) (The GNU Debuger).
+* [Makefile](https://payne81.github.io/rookie_diary/cplusplus/base_skill/makefile)
+
+* [Multithread Base(TODO)](https://payne81.github.io/rookie_diary/cplusplus/thread_base)
+* [ThreadPool(TODO)](https://payne81.github.io/rookie_diary/cplusplus/thread_pool)
+
 ## Linux
 
 * [Sed, Awk and Grep](https://payne81.github.io/rookie_diary/linux/linux_tool_file)
@@ -17,16 +27,6 @@ System Design
 
 * RAFT/Paxos (TODO)
 * brpc source code guide (TODO)
-
-## CPlusPlus
-
-Base Skill
-
-* [GDB](https://payne81.github.io/rookie_diary/cplusplus/base_skill/gdb) (The GNU Debuger).
-* [Makefile](https://payne81.github.io/rookie_diary/cplusplus/base_skill/makefile)
-
-* [Multithread Base(TODO)](https://payne81.github.io/rookie_diary/cplusplus/thread_base)
-* [ThreadPool(TODO)](https://payne81.github.io/rookie_diary/cplusplus/thread_pool)
 
 ## Music
 
