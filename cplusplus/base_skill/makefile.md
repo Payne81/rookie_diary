@@ -1,6 +1,6 @@
 # Makefile
 
-## 基本规则
+## Summary
 
 ```
 target ... : prerequisites ...
@@ -24,7 +24,7 @@ command:
 这是一个文件的依赖关系，也就是说，target这一个或多个的目标文件依赖于prerequisites中的文件，其生成规则定义在command中。说白一点就是说:
     prerequisites中如果有一个以上的文件比target文件要新的话, command所定义的命令就会被执行.
 
-## include
+## `include`
 
 ## 变量
 
@@ -49,3 +49,5 @@ command:
 * [跟我一起写Makefile重置版(代码仓库)](https://github.com/seisman/how-to-write-makefile)
 * [Makefile Tutorial By Example](https://makefiletutorial.com/)
 * [Makefile Tutorial(代码仓库)](https://github.com/theicfire/makefiletutorial)
+
+[INDEX](https://payne81.github.io/rookie_diary/)

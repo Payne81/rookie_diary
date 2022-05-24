@@ -73,4 +73,4 @@ Usage:      sed [选项] [脚本命令] 文件名
 * [CSDN awk命令详解](https://blog.csdn.net/anqixiang/article/details/117903529)
 * [C语言中文网 linux教程](http://c.biancheng.net/linux_tutorial/text_processing/)
 
-[返回目录](https://payne81.github.io/rookie_diary/)
+[INDEX](https://payne81.github.io/rookie_diary/)

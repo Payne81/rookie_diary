@@ -1,7 +1,6 @@
-# REAL BOOK
+# The Fake Book
 
-
-* [markdown syntax](https://payne81.github.io/rookie_diary/markdown_syntax)
+<!-- * [markdown syntax](https://payne81.github.io/rookie_diary/markdown_syntax) -->
 
 ## Linux
 
@@ -15,12 +14,14 @@ Database
 * LSM(The Log-Structured Merge-Tree) (TODO)
 
 System Design
+
 * RAFT/Paxos (TODO)
 * brpc source code guide (TODO)
 
 ## CPlusPlus
 
 Base Skill
+
 * [GDB(TODO!)](https://payne81.github.io/rookie_diary/cplusplus/base_skill/gdb)
 * [Makefile(TODO!)](https://payne81.github.io/rookie_diary/cplusplus/base_skill/makefile)
 
