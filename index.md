@@ -6,8 +6,8 @@
 
 Basic Skill
 
-* [GDB](https://payne81.github.io/rookie_diary/cplusplus/base_skill/gdb) (The GNU Debuger).
-* [Makefile](https://payne81.github.io/rookie_diary/cplusplus/base_skill/makefile)
+* [GDB](https://payne81.github.io/rookie_diary/cplusplus/basic_skill/gdb) (The GNU Debuger).
+* [Makefile](https://payne81.github.io/rookie_diary/cplusplus/basic_skill/makefile)
 
 * [Multithread Base(TODO)](https://payne81.github.io/rookie_diary/cplusplus/thread_base)
 * [ThreadPool(TODO)](https://payne81.github.io/rookie_diary/cplusplus/thread_pool)

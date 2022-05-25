@@ -2,7 +2,7 @@
 
 ## Summary
 
-### Base rule
+### Basic rule
 
 ```makefile
 target ... : prerequisites ...
