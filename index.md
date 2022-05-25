@@ -4,7 +4,7 @@
 
 ## CPlusPlus
 
-Base Skill
+Basic Skill
 
 * [GDB](https://payne81.github.io/rookie_diary/cplusplus/base_skill/gdb) (The GNU Debuger).
 * [Makefile](https://payne81.github.io/rookie_diary/cplusplus/base_skill/makefile)
