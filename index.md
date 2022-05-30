@@ -25,7 +25,8 @@ Database
 
 System Design
 
-* RAFT/Paxos (TODO)
+* [Paxos](https://payne81.github.io/rookie_diary/distributed_system/paxos)
+* RAFT (TODO)
 * brpc source code guide (TODO)
 
 ## Music
