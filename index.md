@@ -14,7 +14,13 @@ Basic Skill
 
 ## Linux
 
+Tools
+
 * [Sed, Awk and Grep](https://payne81.github.io/rookie_diary/linux/linux_tool_file)
+
+System
+
+* [Thread and Process](https://payne81.github.io/rookie_diary/linux/thread_and_process)
 
 ## Distributed System
 
@@ -26,7 +32,7 @@ Database
 System Design
 
 * [Paxos](https://payne81.github.io/rookie_diary/distributed_system/paxos)
-* RAFT (TODO)
+* [RAFT](https://payne81.github.io/rookie_diary/distributed_system/raft)
 * brpc source code guide (TODO)
 
 ## Music
