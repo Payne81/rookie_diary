@@ -7,6 +7,7 @@
 
 对应计算机的一致性算法(consensus algorithm), 立法者对应程序, 立法者的退出对应机器故障. 议会的目的和分布式系统的一致性算法的目的都出达成一个统一的目标/法令.
 
+(Ps. 这个故事应该是Leslie Lamport编的)
 ## Target and Required
 
 ## References
